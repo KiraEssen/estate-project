@@ -1,0 +1,63 @@
+@media (min-width: 1401px)
+{
+
+}
+
+@media (min-width: 1281px) and (max-width: 1400px)
+{
+  .service-item p {
+    padding: 0;
+  }
+
+  .service-item img {
+
+    height: 55px;
+    width: 55px;
+  }
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (max-width: 1050px)
+{
+
+  .main-menu
+  {
+    padding-left: 5%;
+  }
+
+  .main-menu a{
+    font-size: 12pt;
+    padding-left: 15px;
+  }
+
+  .phone-call{
+    font-size: 13pt;
+  }
+
+  .description-text
+  {
+    margin-top: 0;
+    font-size: 11pt;
+  }
+
+  .block-contacts p:nth-child(2)
+  {
+    margin: 5%;
+    line-height: 12pt;
+  }
+
+  .block-contacts p
+  {
+    margin-left: 5%;
+  }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/

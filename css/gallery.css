@@ -1,0 +1,20 @@
+@font-face {
+  font-family: Geometos;
+  src: url('../fonts/Geometos.ttf');
+}
+
+.gallery_block img{
+  width: 24%;
+}
+
+.section{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px){
+  .gallery_block img{
+    width: 45%;
+  }
+}

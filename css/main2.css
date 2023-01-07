@@ -1,0 +1,270 @@
+@font-face {
+  font-family: CenturyGothic;
+  src: url('../fonts/GOTHIC.ttf');
+}
+
+@font-face {
+  font-family: Geometos;
+  src: url('../fonts/Geometos.ttf');
+}
+
+body {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 100%;
+}
+
+.siema {
+  margin: 1rem 0;
+}
+
+header a {
+  text-decoration: none;
+}
+
+div, img {
+  box-sizing: border-box;
+}
+
+.top-menu {
+  display: block;
+  background-color: #fff;
+  height: 100px;
+  -webkit-box-shadow: 0px 3px 16px 1px rgba(33,18,10,0.38);
+  -moz-box-shadow: 0px 3px 16px 1px rgba(33,18,10,0.38);
+  box-shadow: 0px 3px 16px 1px rgba(33,18,10,0.38);
+}
+
+.bell-booking {
+  float: right;
+  width: 175px;
+  height: 100px;
+  background-color: #967e4e;
+  padding-top: 25px;
+}
+
+.bell-booking img {
+  height: 50px;
+  width: 72px;
+  padding-left: 12px;
+  padding-right: 10px;
+  border: 1px;
+  border-bottom: 0px;
+  border-top: 0px;
+  border-left: 0px;
+  border-color: #000;
+  border-style: solid;
+}
+
+.bell-booking span {
+  font-size: 9pt;
+  font-family: CenturyGothic;
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  padding-top: 9px;
+  padding-left: 4px;
+  line-height: 17px;
+  text-transform: uppercase;
+  width: 85px;
+  color: #000;
+}
+
+.phone-call {
+  float: right;
+  display: block;
+  font-size: 15pt;
+  font-family: CenturyGothic;
+  color: #484848;
+  padding-top: 35px;
+  padding-right: 30px;
+  height: 100px;
+}
+
+.phone-call img {
+  width: 18px;
+  height: 18px;
+}
+
+.main-menu {
+  padding-left: 5%;
+  padding-top: 25px;
+  display: flex;
+}
+
+.menu_state_open ul {
+  margin: 0;
+  padding: 0;
+}
+
+.menu_state_open a {
+  text-decoration: none;
+  color: #484848;
+  font-family: CenturyGothic;
+  font-size: 1.125em;
+  padding-left: 20px;
+}
+
+.menu_state_open a:hover{
+  color: #967e4e;
+}
+
+.menu_state_open ul{
+  display: flex;
+  align-items: center;
+}
+
+.menu_state_open li {
+  display: inline-block;
+}
+
+#logotip img{
+  width: 85%;
+  height: auto;
+}
+
+.headline h1{
+  margin-top: 50px;
+  margin-bottom: 70px;
+  font-family: Geometos;
+  text-align: center;
+  color: #494949;
+}
+
+.text{
+  color: #464646;
+  font-family: CenturyGothic;
+}
+
+.text p{
+  font-size: 1.000em;
+}
+
+.house1{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.text span{
+  color: #814b4b;
+  font-weight: bold;
+}
+
+.gallery{
+  width: 50%;
+  max-width: 35rem;
+}
+
+.text{
+  width: 40%;
+}
+
+.button_positions{
+  display: flex;
+  justify-content: space-between;
+}
+
+.button{
+  background-color: #998254;
+  border: none;
+  color: #302c24;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.875em;
+  font-family: CenturyGothic;
+  cursor: pointer;
+}
+
+.button2{
+  background-color: #1e2b31;
+  border: none;
+  color: #fff;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.875em;
+  font-family: CenturyGothic;
+  cursor: pointer;
+}
+
+.footer{
+  background-color: #bcaa7b;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links{
+  display: flex;
+}
+
+.link{
+  margin-top: 3%;
+  width: 50%;
+}
+
+.link ul{
+  list-style-type: none;
+  font-family: "Gothic", sans-serif;
+  font-size: 1.000em;
+  color: #484848;
+}
+
+.link a{
+  text-decoration: none;
+  color: #484848;
+}
+
+.link li{
+  margin-bottom: 10%;
+}
+
+.address{
+  margin-right: 2%;
+  margin-bottom: 1.5%;
+
+  font-family: "Gothic", sans-serif;
+  font-size: 1.000em;
+  color: #484848;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.position{
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  background-color: #967e4e;
+  height: 50px;
+  width: 250px;
+  margin-top: 50px;
+  font-family: CenturyGothic;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.btn-shadow {
+  box-shadow: 2px 1px 3px 1px rgba(0, 0, 0, 0.3);
+}
+
+.btn-shadow:hover {
+  background-color: #c7a869;
+}
+
+/*gallery*/
